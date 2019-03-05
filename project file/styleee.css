@@ -1,0 +1,143 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-image:url(images/background.jpeg); /* الصوره الي تحطها في البودي تكون معممه على الصفحه كلها */
+}
+
+header 
+{
+    background-color: rgb(238, 236, 234)1;
+    height: 40px;
+    overflow: hidden;
+    padding: 20px;
+}
+    /Header/
+    header h1 
+    {
+        float: left;
+        font-family: calibri
+    }
+
+logo 
+{
+    color: #5fcle8;
+}
+
+header nav 
+{
+    float: right;
+}
+
+    header nav ul
+    {
+        list-style-type: none;
+    }
+
+        header nav ul li
+        {
+            float: left;
+            margin-right: 20px;
+        }
+
+a:link 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-family: calibri;
+    color: #ccc;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+    color: #1c9ed1;
+    transition: 1s;
+}
+/jumbotron/
+#jumbotron {
+   
+   
+   /*رجع الي مسحته من هنا و كمل الشرح */
+   
+    
+   
+}
+
+    #jumbotron h2 
+    {
+        float: right;
+        color: #11a3dd;
+        text-shadow: 2px 2px 8pb #fff;
+        font-size: 48pt;
+        font-family: calibri;
+		
+    }
+
+    #jumbotron p 
+    {
+        widows: 700px;
+        font-size: 18px;
+        color: #414141;
+        position: absolute;
+        right: 60px;
+        top: 280px;
+        float: right;
+    }
+
+.redmore 
+{
+    position: absolute;
+    right: 60px;
+    bottom: 370px;
+    border: 1px solid #43d7e4;
+    padding: 10px;
+    background-color: #fff;
+}
+/features/
+#feayures 
+{
+    text-align: center;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+    #feayures ul 
+    {
+        list-style-type: none;
+        overflow: hidden;
+    }
+
+        #feayures ul li 
+        {
+            float: left;
+            border: 1px soild #ccc;
+            height: 160px;
+            overflow: hidden;
+            width: 280px;
+            margin-right: 10px;
+            padding-top: 120px;
+        }
+
+    #feayures #feayures-1 
+    {
+        background: url('') on-repeat top;
+        background-size: 100px 100px;
+        background-color: #fff;
+    }
+
+    #feayures #feayures-2 
+    {
+        background: url('181921-لغة ج ') on-repeat top;
+        background-size: 100px 100px;
+        background-color: #fff;
+    }
+
+    #feayures #feayures-3 
+    {
+        background: url('181921-لغة ج ') on-repeat top;
+        background-size: 100px 100px;
+        background-color: #fff;
+    }
